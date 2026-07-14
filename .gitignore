@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node
+node_modules/
+dist/
+.npm
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+backend/uploads/
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# MiMoCode
+.mimocode/
