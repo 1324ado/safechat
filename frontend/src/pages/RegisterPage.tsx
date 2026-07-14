@@ -116,7 +116,7 @@ export function RegisterPage() {
           {error && (
             <p className="text-sm text-destructive">{error}</p>
           )}
-          <Button type="submit" className="w-full" disabled={loading}>
+          <Button type="submit" className="w-full bg-[#3B82F6] hover:bg-[#2563EB]" disabled={loading}>
             {loading ? "注册中..." : "注册"}
           </Button>
         </form>

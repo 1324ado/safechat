@@ -88,7 +88,7 @@ export function LoginPage() {
           {error && (
             <p className="text-sm text-destructive">{error}</p>
           )}
-          <Button type="submit" className="w-full" disabled={loading}>
+          <Button type="submit" className="w-full bg-[#3B82F6] hover:bg-[#2563EB]" disabled={loading}>
             {loading ? "登录中..." : "登录"}
           </Button>
         </form>
